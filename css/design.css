@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 1, 2014, 8:21:42 PM
+    Author     : Richa
+*/
+body{
+	/*line-height: 30px;*/
+        
+        background: url('../images/graphics-balloons.gif')top right repeat-y,url('../images/graphics-balloons.gif')top left repeat-y,url('../images/Anya_background.jpg') repeat;
+	/*line-height: 1.5;*/
+        margin-left: 120px;
+}
+h1
+{
+    font-family: "Broadway",fantasy;
+        font-size: 30px;
+        color: #cc0033;
+        margin-left: 120px;
+	
+}
+

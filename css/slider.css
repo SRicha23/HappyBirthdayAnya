@@ -1,0 +1,146 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 10, 2014, 9:39:16 AM
+    Author     : Richa
+*/
+
+
+#slider
+{
+    width:640px;
+    height: 400px;
+   
+}
+#slider > ul
+{
+    padding:0 0;
+}
+
+/* slide */
+#slider li > div, #slider li > a
+{
+    max-width:640px;
+    margin:0 auto; /* center each slide */
+    border-radius:6px;
+    background:#000;
+    position: relative;
+    display:block;
+    box-shadow: 0 1px 5px rgba(0,0,0,.8),inset 0 0 1px rgba(255,255,255,.4);
+}
+
+/* loading image indicator */    
+#slider div.preload 
+{
+    background: black url('../images/loading.gif') no-repeat center center;
+}
+
+  
+/*------ pager ------*/      
+/* The pager id should be: slider id + "-pager" */    
+#slider-pager
+{
+    padding-top:12px; /* set the distance away from the slider */
+    margin-left:270px;
+    text-align:center;
+    display:table;
+    font-size:0;
+}
+         
+#slider-pager a 
+{
+    display:inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #CCCCCC;
+    font-size:0;
+    margin:4px 6px;
+    cursor:pointer;
+    border-radius:10px;
+    box-shadow:inset 0 1px 3px #666666;
+}
+#slider-pager a:hover 
+{
+    opacity:0.6;
+}
+#slider-pager a.active 
+{
+    background-color:#1293dc;
+    box-shadow:inset 0 1px 3px -1px #28b4ea,0 1px 1px rgba(0,0,0,.5);
+    background-image:linear-gradient(top,#1293dc,#0f6297);
+}
+ 
+/* --------- navigation controls ------- */   
+/* The nav id should be: slider id + ("-prev", "-next", and "-pause-play") */    
+#slider-prev, #slider-next
+{
+    position: absolute;
+    top: 45%;
+    width:64px;
+    height:64px;
+    display:inline-block;
+    margin:0;
+    background-image: url('../images/navs.png');
+}
+#slider-prev {
+    left: 0;
+    background-position:0 0;
+}
+#slider-prev:hover {background-position:0 -64px;}
+
+#slider-next {
+    right: 0;
+    background-position:-64px 0;
+}
+#slider-next:hover {background-position:-64px -64px;}
+
+#slider-pause-play { display:none;}
+
+
+
+/*------- Settings that usually don't need to change ------- */
+#slider > ul
+{
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    backface-visibility: hidden;
+    
+    -webkit-tap-highlight-color: transparent;
+}
+
+#slider-pager, #slider-prev, #slider-next, #slider-pause-play
+{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+#slider
+{
+    position: relative;
+    overflow: hidden;
+    /*visibility: hidden;*/
+    padding:0;
+}
+#slider > ul
+{
+    overflow: hidden;
+    position: relative;
+    list-style:none;
+    margin:0;
+}
+
+#slider > ul > li
+{
+    float: left;
+    width: 100%;
+    position: relative;
+    list-style:none;
+    padding:0;margin:0;
+}
+
+
