@@ -9,7 +9,7 @@
  * Originally based on the work of:
  *	1) Charles Mangin (http://clickheredammit.com/pageflip/)
  */
-	.booklet         {width:1000px; height:800px; position:relative; margin:0 auto 10px; overflow:visible !important;}
+	.booklet         {width:600px; height:400px; position:relative; margin:0 auto 10px; overflow:visible !important;}
 	.booklet .b-page {left:0; top:0; position:absolute; overflow:hidden; padding:0; outline:1px solid rgba(0,0,0,0);}
 	
 	.booklet .b-pN  {}
@@ -33,7 +33,7 @@
 	
    	/* Custom Page Types */
 	.booklet .b-page-blank  {padding:0; width:100%; height:100%;}
-	.booklet .b-page-cover  {padding:0; width:100%; height:100%; background:blue;}
+	.booklet .b-page-cover  {padding:0; width:100%; height:100%; background:#AC5930;}
 	.booklet .b-page-cover h3  {color:#fff; text-shadow:0 1px 3px #222;}
    
    	/* Page Numbers */
