@@ -12,8 +12,8 @@ body{
         
         background: url('../images/graphics-balloons.gif')top right repeat-y,url('../images/graphics-balloons.gif')top left repeat-y,url('../images/Anya_background.jpg') repeat;
 	/*line-height: 1.5;*/
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 120px;
+        margin-right: 120px;
 }
 h1
 {
