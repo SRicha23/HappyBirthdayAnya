@@ -68,21 +68,7 @@ and open the template in the editor.
 	    $(function () {
 		
 			// Init
-		/*	var closedFrontTitle = $(".selector").booklet( "option", "closedFrontTitle" );
-
-			$(".selector").booklet( "option", "closedFrontTitle", "Start" );
-			//getter
-			var closedFrontChapter = $(".selector").booklet( "option", "closedFrontChapter" );
-			//setter
-			$(".selector").booklet( "option", "closedFrontChapter", "Start of Book" );
-			//getter
-			var closedBackTitle = $(".selector").booklet( "option", "closedBackTitle" );
-			//setter
-			$(".selector").booklet( "option", "closedBackTitle", "End" );
-			//getter
-			var closedBackChapter = $(".selector").booklet( "option", "closedBackChapter" );
-			//setter
-			$(".selector").booklet( "option", "closedBackChapter", "End of Book" );*/
+		
 			var updateSelect = function (event, data) {
 				var pageTotal = data.options.pageTotal;
 				for(i = 0; i < pageTotal; i++) {
@@ -93,7 +79,7 @@ and open the template in the editor.
 			var options = $.extend({}, $.fn.booklet.defaults, {
 			    pagePadding: 10,
 			    menu: "#menu",
-			    width: 800,
+			    width: 600,
 				height: 400,
 			    pageSelector: true,
 			    chapterSelector: true,
