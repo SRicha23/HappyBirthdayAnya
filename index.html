@@ -68,7 +68,7 @@ and open the template in the editor.
 	    $(function () {
 		
 			// Init
-			var closedFrontTitle = $(".selector").booklet( "option", "closedFrontTitle" );
+		/*	var closedFrontTitle = $(".selector").booklet( "option", "closedFrontTitle" );
 
 			$(".selector").booklet( "option", "closedFrontTitle", "Start" );
 			//getter
@@ -82,7 +82,7 @@ and open the template in the editor.
 			//getter
 			var closedBackChapter = $(".selector").booklet( "option", "closedBackChapter" );
 			//setter
-			$(".selector").booklet( "option", "closedBackChapter", "End of Book" );
+			$(".selector").booklet( "option", "closedBackChapter", "End of Book" );*/
 			var updateSelect = function (event, data) {
 				var pageTotal = data.options.pageTotal;
 				for(i = 0; i < pageTotal; i++) {
@@ -97,7 +97,6 @@ and open the template in the editor.
 				height: 400,
 			    pageSelector: true,
 			    chapterSelector: true,
-			    arrows: true,
 			    tabs: true,
                 arrowsHide:false,
                 closed: true,
