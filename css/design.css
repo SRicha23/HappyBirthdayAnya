@@ -10,7 +10,7 @@ and open the template in the editor.
 body{
 	/*line-height: 30px;*/
         
-        background: url('../images/graphics-balloons.gif')top right repeat-y,url('../images/graphics-balloons.gif')top left repeat-y,url('../images/Anya_background.jpg') repeat;
+        background: url('../img/graphics-balloons.gif')top right repeat-y,url('../img/graphics-balloons.gif')top left repeat-y,url('../img/Anya_background.jpg') repeat;
 	/*line-height: 1.5;*/
         margin-left: 120px;
         
