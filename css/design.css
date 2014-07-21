@@ -13,6 +13,7 @@ body{
         background: url('../img/graphics-balloons.gif')top right repeat-y,url('../img/graphics-balloons.gif')top left repeat-y,url('../img/Anya_background.jpg') repeat;
 	/*line-height: 1.5;*/
         position:fixed;
+        margin: auto;
         
 }
 h1
@@ -20,7 +21,8 @@ h1
     font-family: "Broadway",fantasy;
         font-size: 30px;
         color: #cc0033;
-       margin-left: 120px;
+        margin: auto;
+       
 	
 }
 
