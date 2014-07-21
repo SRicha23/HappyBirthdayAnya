@@ -13,7 +13,7 @@ body{
         background: url('../img/graphics-balloons.gif')top right repeat-y,url('../img/graphics-balloons.gif')top left repeat-y,url('../img/Anya_background.jpg') repeat;
 	/*line-height: 1.5;*/
         margin-left: 120px;
-        
+        margin-right: 120px;
 }
 h1
 {
